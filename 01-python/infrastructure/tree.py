@@ -1,12 +1,12 @@
-def draw_tree():
+def draw_tree(height=3):
     print("   _____   ")
     print("  / ~   \\")
     print(" /       \\")
     print(" \\    ~  /")
     print("  \\_   _/")
-    print("    | |   ")
-    print("    | |   ")
-    print("    | |   ")
+    for i in range(height):
+    	print("    | |   ")
     print("   /   \\  ")
     print("///////////")
-    return
+    print()
+    
