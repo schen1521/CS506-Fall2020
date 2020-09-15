@@ -9,4 +9,4 @@ def draw_tree(height=3):
     print("   /   \\  ")
     print("///////////")
     print()
-    return
+    
