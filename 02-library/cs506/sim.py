@@ -2,7 +2,6 @@ def euclidean_dist(x, y):
     result = sum([(abs(x[i] - y[i]))**2 for i in range(len(x))])
     return result**(1/2)
 
-
 def manhattan_dist(x, y):
     result = sum([abs(x[i] - y[i]) for i in range(len(x))])
     return result
